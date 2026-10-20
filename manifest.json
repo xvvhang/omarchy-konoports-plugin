@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "konochi.konoports",
+  "name": "Konoports",
+  "version": "1.0.0",
+  "author": "alec",
+  "license": "MIT",
+  "description": "Local dev servers, listening ports, launch commands and safe process controls",
+  "kinds": ["service", "bar-widget"],
+  "entryPoints": {"service": "Service.qml", "barWidget": "Widget.qml"},
+  "barWidget": {
+    "displayName": "Konoports",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {},
+    "schema": []
+  }
+}
