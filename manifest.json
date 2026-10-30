@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "konochi.konoports",
   "name": "Konoports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "alec",
   "license": "MIT",
   "description": "Local dev servers, listening ports, launch commands and safe process controls",

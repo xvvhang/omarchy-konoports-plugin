@@ -12,7 +12,8 @@ and Omarchy Quattro with Quickshell and Python's standard library.
 
 ## Features
 
-- Always-visible server icon: full opacity with dev servers, 35% opacity without.
+- Server icon appears only when dev servers are detected; otherwise it is hidden
+  without reserving bar space.
 - Left-click opens a live panel; Escape or an outside click dismisses it.
 - Project folder, framework/runtime, listening address and port, PID, and command.
 - Open the endpoint in your default browser.

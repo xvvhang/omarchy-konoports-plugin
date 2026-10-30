@@ -14,8 +14,9 @@ BarWidget {
   function open() { panel.open() }
   function close() { panel.close() }
   function closeForPopoutSwitch() { panel.closeForPopoutSwitch() }
-  implicitWidth: button.implicitWidth
-  implicitHeight: button.implicitHeight
+  visible: active
+  implicitWidth: active ? button.implicitWidth : 0
+  implicitHeight: active ? button.implicitHeight : 0
   WidgetButton {
     id: button
     anchors.fill: parent
@@ -31,8 +32,6 @@ BarWidget {
       anchors.centerIn: parent
       width: Style.bar.iconCanvas
       height: width
-      opacity: root.active ? 1 : 0.35
-      Behavior on opacity { NumberAnimation { duration: 150 } }
       OpticalGlyph { anchors.fill: parent; text: "\u{f048d}"; color: button.foreground; fontFamily: button.fontFamily; fontSize: Style.bar.iconFont }
     }
   }

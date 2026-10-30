@@ -29,6 +29,6 @@ Checked 2026-10-20 on the running Omarchy Quattro desktop.
   is now discovered; live IPC confirmed the test listener at `localhost:8765`.
 
 Still to test manually: browser launching, pointer/keyboard confirmation flow,
-  empty-state icon opacity, multiple/vertical bars, many-row scrolling, HTTPS
+  empty-state icon hiding/reappearance, multiple/vertical bars, many-row scrolling, HTTPS
   servers, supervised/shared listeners, and container/network namespace behavior.
 Stop tests only target child processes created by the test suite.
